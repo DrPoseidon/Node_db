@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "axios": "^0.19.2",
+    "pg": "^8.3.2",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.4"
+  },
+  "name": "Node_db",
+  "version": "1.0.0",
+  "main": "db.js",
+  "repository": "https://github.com/DrPoseidon/Node_db.git",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node api/db.js",
+    "lint": "eslint . --ext .js,.vue --fix"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-plugin-vue": "^6.2.2"
+  }
+}
